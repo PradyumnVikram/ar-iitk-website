@@ -5,12 +5,15 @@
         display: flex;
         gap: 50px;
         margin-bottom: 80px;
+        width: 100%; // Add full width
+        justify-content: space-between; // Distribute items evenly
     }
 
     .container{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 100%; // Make container full width
     }
 }
 
@@ -19,6 +22,7 @@
         .wrapper{
             margin-bottom: 0px;
             justify-content: space-between;
+            gap: 0; // Remove gap on larger screens for full distribution
         }
     }
 }

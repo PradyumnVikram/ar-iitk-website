@@ -4,9 +4,10 @@
     margin-top: 40px;
 
     a{
-        color: black;
+        color: rgb(255, 255, 255);
         text-decoration: none;
         text-transform: uppercase;
+        width: 50%; // Each link takes half the width
     }
 
     p{
@@ -17,11 +18,19 @@
         padding-right: 30px;
         padding-top: 10px;
         font-weight: 300;
+        width: 50%; // Each paragraph takes half the width
+        
+        &:nth-child(odd) {
+            justify-content: flex-start; // Left align odd items
+        }
+        
+        &:nth-child(even) {
+            justify-content: flex-end; // Right align even items
+        }
     }
 }
 
 @media only screen and (min-width: 1000px) {
-   
     .body{
         max-width: 1200px;
         margin-top: 80px;
