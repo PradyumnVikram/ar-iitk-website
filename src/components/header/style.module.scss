@@ -1,9 +1,10 @@
 .header{
-    background-color: #f4f0ea;
+    background-color: #89CFF0;
     position: fixed;
     width: 100%;
     box-sizing: border-box;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
 
     .background{
         background-color: black;
@@ -32,17 +33,6 @@
             color: black;
             position: absolute;
             left: 0;
-        }
-
-        .shopContainer{
-            display: flex;
-            gap: 30px;
-            position: absolute;
-            right: 0;
-
-            .shop{
-                display: none;
-            }
         }
 
         .el{
@@ -114,9 +104,5 @@
             font-size: 15px;
         }
 
-        .shop{
-            display: block;
-            cursor: pointer;
-        }
     }
 }

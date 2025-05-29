@@ -10,28 +10,23 @@ import Image from './Image';
 const links = [
   {
     title: "Home",
-    href: "/",
-    src: "home.png"
+    href: "/"
   },
   {
-    title: "Shop",
-    href: "/shop",
-    src: "shop.png"
+    title: "Achievements",
+    href: "/achievements"
   },
   {
     title: "About Us",
-    href: "/about",
-    src: "home.png"
+    href: "/about"
   },
   {
-    title: "Lookbook",
-    href: "/lookbook",
-    src: "lookbook.png"
+    title: "Wiki",
+    href: "/wiki"
   },
   {
     title: "Contact",
-    href: "/contact",
-    src: "contact.png"
+    href: "/contact"
   }
 ]
 

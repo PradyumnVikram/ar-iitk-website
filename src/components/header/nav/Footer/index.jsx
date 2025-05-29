@@ -6,21 +6,12 @@ export default function Footer() {
     return (
         <div className={styles.footer}>
             <ul>
-                <motion.li 
-                    custom={[0.3, 0]} 
-                    variants={translate} initial="initial" 
-                    animate="enter" 
-                    exit="exit">
-                    <span>Made by:</span>Studio Lumio
-                </motion.li>
-            </ul>
-            <ul>
                 <motion.li  
                     custom={[0.3, 0]} 
                     variants={translate} initial="initial" 
                     animate="enter" 
                     exit="exit">
-                    <span>Typography:</span> Google Fonts
+                    <span>E-mail: </span>ariitk@mail.com
                 </motion.li>
             </ul>
             <ul>
@@ -29,7 +20,7 @@ export default function Footer() {
                     variants={translate} initial="initial" 
                     animate="enter" 
                     exit="exit">
-                    <span>Images:</span> Freepik, Envato
+                    <span>Contact: </span>XXXXXXXXXX
                 </motion.li>
             </ul>
             <ul>
@@ -38,14 +29,7 @@ export default function Footer() {
                     variants={translate} initial="initial" 
                     animate="enter" 
                     exit="exit">
-                    Privacy Policy
-                </motion.li>
-                <motion.li 
-                    custom={[0.3, 0]} 
-                    variants={translate} initial="initial" 
-                    animate="enter" 
-                    exit="exit">
-                    Terms & Conditions
+                    Sponsor Us
                 </motion.li>
             </ul>
         </div>
