@@ -11,7 +11,7 @@ export default function Footer() {
                     variants={translate} initial="initial" 
                     animate="enter" 
                     exit="exit">
-                    <span>E-mail: </span>ariitk@mail.com
+                    <span>E-mail: ariitk@mail.com</span>
                 </motion.li>
             </ul>
             <ul>
@@ -20,7 +20,7 @@ export default function Footer() {
                     variants={translate} initial="initial" 
                     animate="enter" 
                     exit="exit">
-                    <span>Contact: </span>XXXXXXXXXX
+                    <span>Contact: XXXXXXXXXX</span>
                 </motion.li>
             </ul>
             <ul>
@@ -29,7 +29,7 @@ export default function Footer() {
                     variants={translate} initial="initial" 
                     animate="enter" 
                     exit="exit">
-                    Sponsor Us
+                    <span>Sponsor Us</span>
                 </motion.li>
             </ul>
         </div>

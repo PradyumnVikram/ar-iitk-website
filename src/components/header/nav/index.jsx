@@ -13,19 +13,27 @@ const links = [
     href: "/"
   },
   {
-    title: "Achievements",
-    href: "/achievements"
+    title: "Our Projects",
+    href: "/projects"
   },
   {
-    title: "About Us",
-    href: "/about"
+    title: "The Team",
+    href: "/team"
+  },
+  {
+    title: "Achievements",
+    href: "/achievements"
   },
   {
     title: "Wiki",
     href: "/wiki"
   },
   {
-    title: "Contact",
+    title: "Sponsors",
+    href: "/sponsors"
+  },
+  {
+    title: "Contact Us",
     href: "/contact"
   }
 ]
