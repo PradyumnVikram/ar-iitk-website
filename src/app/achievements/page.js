@@ -7,6 +7,7 @@ const page = () =>{
             <h1>
                 Contact<sup>03</sup>
             </h1>
+            This is the achievments page
         </div>
     );
 };
