@@ -3,23 +3,24 @@
 
    .wrapper{
         display: flex;
-        gap: 50px;
         margin-bottom: 80px;
-        width: 100%; // Add full width
+        width: auto; // Add full width
         justify-content: space-between; // Distribute items evenly
     }
 
     .container{
-        display: flex;
+        flex: 1;
         flex-direction: column;
         justify-content: space-between;
-        width: 100%; // Make container full width
+        width: auto; // Make container full width
     }
 }
+
 
 @media only screen and (min-width: 1000px) {
     .nav{
         .wrapper{
+            display: flex;
             margin-bottom: 0px;
             justify-content: space-between;
             gap: 0; // Remove gap on larger screens for full distribution
