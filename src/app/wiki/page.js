@@ -1,13 +1,26 @@
-import React from "react";
+'use client';
 
-const page = () =>{
-    return(
-        <div className="page-content">
-            <h1>
-                Contact<sup>03</sup>
-            </h1>
-        </div>
-    );
-};
+import FooterWithMap from 'components/footer';
 
-export default page;
+export default function Page() {
+  return (
+    <main style={{ margin: 0, padding: 0 }}>
+      {/* Hero Section */}
+      <section
+        style={{
+          height: '100vh',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: '#fff',
+          textAlign: 'center',
+        }}
+      >
+      </section>
+
+      {/* Footer Section - Remove wrapper and minHeight */}
+      <FooterWithMap />
+    </main>
+  );
+}

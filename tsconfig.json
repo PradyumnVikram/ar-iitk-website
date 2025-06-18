@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/components/*": [
+        "components/*"
+      ]
+    },
     "lib": [
       "dom",
       "dom.iterable",
@@ -21,13 +27,16 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "target": "ES2017"
   },
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "src/components/footer.js",
+    "src/app/page.js"
   ],
   "exclude": [
     "node_modules"
