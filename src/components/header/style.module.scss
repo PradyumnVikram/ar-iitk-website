@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    z-index: 9999; /* Add this line to fix the overlay issue */
 
     .background{
         background-color: black;
@@ -16,6 +17,7 @@
         top: 100%;
     }
 
+    /* Rest of your existing styles remain the same */
     .label{
         position: relative;
         display: flex;
@@ -23,9 +25,8 @@
         p {
             color: white;
             margin: 0;
+        }
     }
-}
-
 
     .bar{
         display: flex;
@@ -106,14 +107,13 @@
     }
 }
 
-
 @media only screen and (min-width: 600px) {
     .header{
         padding: 20px;
+        /* z-index is inherited from the main .header rule above */
 
         .bar{
             font-size: 15px;
         }
-
     }
 }
