@@ -8,7 +8,7 @@ const FooterWithMap = () => {
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         <div style={{ 
           display: 'flex', 
-          alignItems: 'flex-start', 
+          alignItems: 'center', // Changed from 'flex-start' to 'center'
           justifyContent: 'space-between',
           gap: '2rem',
           flexWrap: 'wrap'
@@ -37,16 +37,59 @@ const FooterWithMap = () => {
             </div>
           </div>
 
-          {/* Contact Info */}
-          <div style={{ flex: 1, paddingLeft: '2rem', paddingRight: '2rem' }}>
-            <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '1.5rem' }}>CONTACT US</h3>
-            <div style={{ color: '#d1d5db', marginBottom: '2rem', lineHeight: '1.6' }}>
-              <p style={{ margin: '0.5rem 0', fontWeight: '500' }}>Hall of Residence II</p>
-              <p style={{ margin: '0.5rem 0' }}>IIT Kanpur</p>
-              <p style={{ margin: '0.5rem 0' }}>Uttar Pradesh - 208016</p>
+          {/* Contact Info - Center Aligned */}
+          <div style={{ 
+            flex: 1, 
+            paddingLeft: '2rem', 
+            paddingRight: '2rem',
+            textAlign: 'center', // Added center alignment
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center', // Center align the content
+            justifyContent: 'center' // Vertically center the content
+          }}>
+            <h3 style={{ 
+              fontSize: '1.25rem', 
+              fontWeight: 'bold', 
+              marginBottom: '1.5rem',
+              fontFamily: 'Orbitron, sans-serif', // Added Orbitron font
+              letterSpacing: '0.1em' // Added letter spacing for better readability
+            }}>
+              CONTACT US
+            </h3>
+            <div style={{ 
+              color: '#d1d5db', 
+              marginBottom: '2rem', 
+              lineHeight: '1.6',
+              fontFamily: 'Orbitron, sans-serif' // Added Orbitron font
+            }}>
+              <p style={{ 
+                margin: '0.5rem 0', 
+                fontWeight: '500',
+                fontFamily: 'Orbitron, sans-serif' // Added Orbitron font
+              }}>
+                Hall of Residence II
+              </p>
+              <p style={{ 
+                margin: '0.5rem 0',
+                fontFamily: 'Orbitron, sans-serif' // Added Orbitron font
+              }}>
+                IIT Kanpur
+              </p>
+              <p style={{ 
+                margin: '0.5rem 0',
+                fontFamily: 'Orbitron, sans-serif' // Added Orbitron font
+              }}>
+                Uttar Pradesh - 208016
+              </p>
             </div>
             
-            <div style={{ display: 'flex', gap: '1.5rem' }}>
+            {/* Social Icons - Center Aligned */}
+            <div style={{ 
+              display: 'flex', 
+              gap: '1.5rem',
+              justifyContent: 'center' // Center align the icons
+            }}>
               <a href="https://instagram.com/ariitk" target="_blank" rel="noopener noreferrer" style={{ color: '#ec4899', fontSize: '1.75rem' }}>
                 <FaInstagram />
               </a>
@@ -90,9 +133,12 @@ const FooterWithMap = () => {
           marginTop: '3rem', 
           paddingTop: '2rem', 
           textAlign: 'center', 
-          color: '#9ca3af' 
+          color: '#9ca3af',
+          fontFamily: 'Orbitron, sans-serif' // Added Orbitron font to copyright text
         }}>
-          <p>© Copyright <strong>ARIITK</strong>. All Rights Reserved</p>
+          <p style={{ fontFamily: 'Orbitron, sans-serif' }}>
+            © Copyright <strong>ARIITK</strong>. All Rights Reserved
+          </p>
         </div>
       </div>
     </footer>
