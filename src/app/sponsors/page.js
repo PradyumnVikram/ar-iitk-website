@@ -16,6 +16,7 @@ export default function SponsorsPage() {
       >
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <h1 style={{
+            marginTop: '3rem',
             fontSize: '3rem',
             fontWeight: 'bold',
             textAlign: 'center',
@@ -100,7 +101,7 @@ export default function SponsorsPage() {
       <section
         style={{
           backgroundColor: '#fff',
-          padding: '4rem 1.5rem',
+          padding: '2rem 1.5rem',
           borderTop: '1px solid #e5e7eb'
         }}
       >
