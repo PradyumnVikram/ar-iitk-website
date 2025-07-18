@@ -5,6 +5,9 @@ import { motion } from 'framer-motion';
 import { height } from '../anim';
 import Body from './Body';
 import Footer from './Footer';
+import { Orbitron } from 'next/font/google';
+
+const orbitron = Orbitron({ subsets: ['latin'], weight: ['400', '700'] });
 
 const links = [
   {
@@ -42,7 +45,7 @@ export default function Index() {
   const [selectedLink, setSelectedLink] = useState({isActive: false, index: 0});
 
   return (
-    <motion.div variants={height} initial="initial" animate="enter" exit="exit" className={styles.nav}>
+    <motion.div variants={height} initial="initial" animate="enter" exit="exit" className={`${styles.nav} ${orbitron.className}`}>
       <div className={styles.wrapper}>
         <div className={styles.container}>
           <Body links={links} selectedLink={selectedLink} setSelectedLink={setSelectedLink}/>
