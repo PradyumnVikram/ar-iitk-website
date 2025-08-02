@@ -28,7 +28,7 @@ const links = [
   },
   {
     title: "Wiki",
-    href: "/wiki"
+    href: "https://wiki.ariitk.in/wiki"
   },
   {
     title: "Sponsors",

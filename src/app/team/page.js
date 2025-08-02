@@ -10,7 +10,7 @@ export default function TeamPage() {
     {
       id: 1,
       name: "Ram Daftari",
-      designation: "Team Lead",
+      designation: "Junior Team Member",
       image: "/team/current/ram-daftari.jpg"
     },
     {
