@@ -33,10 +33,6 @@ const links = [
   {
     title: "Sponsors",
     href: "/sponsors"
-  },
-  {
-    title: "Contact Us",
-    href: "/contact"
   }
 ]
 
